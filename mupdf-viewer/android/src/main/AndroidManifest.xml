@@ -1,0 +1,24 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mupdf">
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.artifex.mupdflib.MuPDFActivity"
+            android:theme="@style/AppReaderTheme"
+            >
+        </activity>
+        <activity
+            android:name="com.artifex.mupdflib.PrintDialogActivity"
+            android:theme="@style/AppReaderTheme"
+            android:label="@string/print">
+        </activity>
+        <activity
+            android:name="com.artifex.mupdflib.PDFPreviewGridActivity"
+            android:theme="@style/AppReaderTheme"
+            android:label="preview label">
+        </activity>
+    </application>
+</manifest>
+  
